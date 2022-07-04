@@ -45,11 +45,7 @@ h1 , footer{
     
 }
 .char-img:hover{
-<<<<<<< HEAD
-    transform: scale(1); 
-=======
     transform: scale(1);
->>>>>>> 584c5bd7691d7f1c99ae7a84061b962c8d541308
 }
 
 .btn-custom {
