@@ -1,83 +1,73 @@
 /* body styling */
 
-*, body, html{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
+*,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-h1 , footer{
-    color: rgb(80, 54, 43);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900            ;
-    text-align: center;
+h1,
+footer {
+  color: rgb(80, 54, 43);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  text-align: center;
 }
-    
+
 #root {
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 2px;
-    background-color: wheat;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 2px;
+  background-color: wheat;
 }
 
-.character {    
-    margin-right: 2px;
-    margin-bottom: 3px;
+.character {
+  margin-right: 2px;
+  margin-bottom: 3px;
 }
-    
-    
+
 .img-box {
-    width: 20rem;
-    height: 20rem;
-    
-
-    
+  width: 20rem;
+  height: 20rem;
 }
 
 .char-img {
-    width: 70%;
-    height: 70%;
-    display: block;
-    object-fit: cover;
-    border-radius: 8px;
-    transform: scale(0.9);
-    
+  width: 70%;
+  height: 70%;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+  transform: scale(0.9);
 }
-.char-img:hover{
-<<<<<<< HEAD
-    transform: scale(1); 
-=======
-    transform: scale(1);
->>>>>>> 584c5bd7691d7f1c99ae7a84061b962c8d541308
+.char-img:hover {
+  transform: scale(1);
 }
 
 .btn-custom {
-    width: 100%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-    #root {
-        padding-left: 5rem;
-    }
+#root {
+  padding-left: 5rem;
+}
 
-    .character {    
-        margin-right: 4rem;
-    }
-  
-    #root {
-        padding-left: 5rem;
-        justify-content: center;
-    }
+.character {
+  margin-right: 4rem;
+}
 
-    .character {    
-        margin-right: 5rem;
-    }
-  
+#root {
+  padding-left: 5rem;
+  justify-content: center;
+}
 
- 
-    .character {    
-        margin-right: 0;
-    }
-  
+.character {
+  margin-right: 5rem;
+}
+
+.character {
+  margin-right: 0;
+}
